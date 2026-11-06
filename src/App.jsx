@@ -12,6 +12,9 @@ import { increment ,decrement ,DEC , incrementByAmount } from './counterSlice.js
 
 function App() {
     
+  // Aitzaz 
+
+
    const count =useSelector((state)=> state.counter.value);
    const dispatch =useDispatch();
  
